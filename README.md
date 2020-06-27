@@ -15,7 +15,7 @@ You will also need to install the requirments:
 You can also use the releases.
 
 ## Deutsch
-Dies ist eine unoffizielle Client App für den deutschen IServ School Server,
+Dies ist eine unoffizielle Client App für den deutschen IServ Schul Server,
 erstellt mit Python3 und PyQt5. Es ist so wie die IServ App für IOS or Android
 
 ### Programm starten
