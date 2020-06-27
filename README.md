@@ -6,11 +6,13 @@ This is an unoffical Client App for the German IServ School Server,
 made with Python3 und PyQt5. It is like the IServ App for IOS or Android.
 
 ### Run
-When you want to use this app, clone this reposoitory and run "IServ.py".
+When you want to use this app, you can clone this reposoitory and run "IServ.py".
 You will also need to install the requirments:
 
     pip install PyQt5
     pip install PyQtWebEngine
+
+You can also use the releases.
 
 ## Deutsch
 Dies ist eine unoffizielle Client App für den deutschen IServ School Server,
@@ -22,3 +24,5 @@ Sie müssen auch die Anforderungen installieren:
 
     pip install PyQt5
     pip install PyQtWebEngine
+
+Sie können auch die Releases benutzen.
