@@ -20,7 +20,7 @@ erstellt mit Python3 und PyQt5. Es ist so wie die IServ App für IOS or Android
 
 ### Programm starten
 Wenn Sie diese App verwenden möchten, klonen Sie dieses Reposoitory und führen Sie "IServ.py" aus. 
-Sie müssen auch die Anforderungen installieren:
+Sie müssen auch die Abhängigkeiten installieren:
 
     pip install PyQt5
     pip install PyQtWebEngine
