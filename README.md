@@ -16,7 +16,7 @@ You can also use the releases.
 
 ## Deutsch
 Dies ist eine unoffizielle Client App für den deutschen IServ Schul Server,
-erstellt mit Python3 und PyQt5. Es ist so wie die IServ App für IOS or Android
+erstellt mit Python3 und PyQt5. Es ist so ähnlich wie die IServ App für IOS oder Android
 
 ### Programm starten
 Wenn Sie diese App verwenden möchten, klonen Sie dieses Reposoitory und führen Sie "IServ.py" aus. 
