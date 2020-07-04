@@ -4,6 +4,7 @@ IServ Homepage: iserv.eu
 ## English
 This is an unoffical Client App for the German IServ School Server,
 made with Python3 und PyQt5. It is like the IServ App for IOS or Android.
+This Application is mostly in German.
 
 ### Run
 When you want to use this app, you can clone this reposoitory and run "IServ.py".
