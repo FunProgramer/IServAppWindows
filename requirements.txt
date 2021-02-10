@@ -1,0 +1,5 @@
+win10toast
+requests
+simplejson
+PyQt5
+PyQtWebEngine
