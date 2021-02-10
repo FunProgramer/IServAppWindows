@@ -10,8 +10,7 @@ This Application is mostly in German.
 When you want to use this app, you can clone this reposoitory and run "IServ.py".
 You will also need to install the requirments:
 
-    pip install PyQt5
-    pip install PyQtWebEngine
+    pip install -r requirements.txt
 
 You can also use the releases.
 
@@ -23,7 +22,6 @@ erstellt mit Python3 und PyQt5. Es ist so ähnlich wie die IServ App für IOS od
 Wenn Sie diese App verwenden möchten, klonen Sie dieses Reposoitory und führen Sie "IServ.py" aus. 
 Sie müssen auch die Abhängigkeiten installieren:
 
-    pip install PyQt5
-    pip install PyQtWebEngine
+    pip install -r requirements.txt
 
 Sie können auch die Releases benutzen.
