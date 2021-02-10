@@ -27,7 +27,7 @@
    <item row="0" column="0">
     <widget class="QStackedWidget" name="stackedWidget">
      <property name="currentIndex">
-      <number>1</number>
+      <number>3</number>
      </property>
      <widget class="QWidget" name="loading_page">
       <layout class="QGridLayout" name="gridLayout_2">
@@ -120,7 +120,44 @@
      </widget>
      <widget class="QWidget" name="account_page">
       <layout class="QGridLayout" name="gridLayout_3">
-       <item row="5" column="1">
+       <item row="0" column="0">
+        <widget class="QLabel" name="logo_label_accounts">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resource.qrc">:/pictures/logo.svg</pixmap>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="fullscreenButton_2">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="resource.qrc">
+           <normaloff>:/pictures/fullscreen.png</normaloff>:/pictures/fullscreen.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="info_error_label">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0" colspan="2">
         <widget class="QLabel" name="creator_label">
          <property name="text">
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Diese unoffizielle &lt;a href=&quot;http://iserv.eu&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;IServ&lt;/span&gt;&lt;/a&gt; Desktop App wurde von Philipp Neumann (&lt;a href=&quot;https://github.com/FunProgramer&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;FunProgramer auf Github&lt;/span&gt;&lt;/a&gt;) mit &lt;a href=&quot;http://python.org&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Python&lt;/span&gt;&lt;/a&gt;, &lt;a href=&quot;https://riverbankcomputing.com/software/pyqt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;PyQt5&lt;/span&gt;&lt;/a&gt; und &lt;a href=&quot;https://www.pyinstaller.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Pyinstaller&lt;/span&gt;&lt;/a&gt; entwickelt.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -130,14 +167,7 @@
          </property>
         </widget>
        </item>
-       <item row="4" column="1">
-        <widget class="QLabel" name="info_error_label">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
+       <item row="1" column="0" colspan="2">
         <widget class="QWidget" name="label_buttons_widget" native="true">
          <layout class="QGridLayout" name="gridLayout_4">
           <item row="0" column="1">
@@ -153,7 +183,7 @@
             </property>
             <property name="icon">
              <iconset resource="resource.qrc">
-              <normaloff>:/pictures/trash.svg</normaloff>:/pictures/trash.svg</iconset>
+              <normaloff>:/pictures/trash.png</normaloff>:/pictures/trash.png</iconset>
             </property>
             <property name="checkable">
              <bool>true</bool>
@@ -180,14 +210,14 @@
             </property>
             <property name="icon">
              <iconset resource="resource.qrc">
-              <normaloff>:/pictures/add.svg</normaloff>:/pictures/add.svg</iconset>
+              <normaloff>:/pictures/add.png</normaloff>:/pictures/add.png</iconset>
             </property>
            </widget>
           </item>
          </layout>
         </widget>
        </item>
-       <item row="3" column="1">
+       <item row="2" column="0" colspan="2">
         <widget class="QListWidget" name="acc_listview">
          <property name="editTriggers">
           <set>QAbstractItemView::NoEditTriggers</set>
@@ -197,24 +227,68 @@
          </property>
         </widget>
        </item>
-       <item row="0" column="1">
-        <widget class="QLabel" name="logo_label_accounts">
-         <property name="text">
-          <string/>
-         </property>
-         <property name="pixmap">
-          <pixmap resource="resource.qrc">:/pictures/logo.svg</pixmap>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
       </layout>
      </widget>
      <widget class="QWidget" name="add_account_page">
       <layout class="QGridLayout" name="gridLayout_6">
-       <item row="6" column="0">
+       <item row="0" column="0">
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="1">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="email_label">
+         <property name="text">
+          <string>IServ-Email</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="password_label">
+         <property name="text">
+          <string>Password</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0" colspan="3">
+        <widget class="QLineEdit" name="password_lineEdit">
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="error_label">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="3">
+        <widget class="QLineEdit" name="email_lineEdit"/>
+       </item>
+       <item row="7" column="0">
         <spacer name="verticalSpacer">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -230,21 +304,7 @@
          </property>
         </spacer>
        </item>
-       <item row="1" column="0" colspan="2">
-        <widget class="QLabel" name="email_label">
-         <property name="text">
-          <string>IServ-Email</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0">
-        <widget class="QLineEdit" name="password_lineEdit">
-         <property name="echoMode">
-          <enum>QLineEdit::Password</enum>
-         </property>
-        </widget>
-       </item>
-       <item row="7" column="0">
+       <item row="8" column="0" colspan="3">
         <widget class="QWidget" name="buttons_widget" native="true">
          <layout class="QGridLayout" name="gridLayout_7">
           <item row="0" column="0">
@@ -264,7 +324,7 @@
          </layout>
         </widget>
        </item>
-       <item row="3" column="0">
+       <item row="4" column="0">
         <spacer name="verticalSpacer_2">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -280,42 +340,117 @@
          </property>
         </spacer>
        </item>
-       <item row="2" column="0">
-        <widget class="QLineEdit" name="email_lineEdit"/>
-       </item>
-       <item row="0" column="0">
-        <spacer name="verticalSpacer_3">
-         <property name="orientation">
-          <enum>Qt::Vertical</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>20</width>
-           <height>40</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="4" column="0">
-        <widget class="QLabel" name="password_label">
-         <property name="text">
-          <string>Password</string>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="0">
-        <widget class="QLabel" name="error_label">
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-       </item>
       </layout>
      </widget>
      <widget class="QWidget" name="webview_page">
       <layout class="QGridLayout" name="gridLayout_5">
-       <item row="0" column="0">
-        <widget class="QWebEngineView" name="webView" native="true"/>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="forward">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="resource.qrc">
+           <normaloff>:/pictures/forward-arrow.png</normaloff>:/pictures/forward-arrow.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="6">
+        <widget class="QPushButton" name="fullscreenButton">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="resource.qrc">
+           <normaloff>:/pictures/fullscreen.png</normaloff>:/pictures/fullscreen.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="back">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="resource.qrc">
+           <normaloff>:/pictures/back-arrow.png</normaloff>:/pictures/back-arrow.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLabel" name="url_label">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>http://example.de</string>
+         </property>
+         <property name="textInteractionFlags">
+          <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="2">
+        <widget class="QPushButton" name="reload">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="resource.qrc">
+           <normaloff>:/pictures/reload.png</normaloff>:/pictures/reload.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="7">
+        <widget class="QWebEngineView" name="webView" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLabel" name="webLoadingLabel">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
        </item>
       </layout>
      </widget>
