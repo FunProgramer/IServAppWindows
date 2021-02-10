@@ -1,9 +1,14 @@
 <RCC>
   <qresource prefix="pictures">
+    <file>reload.png</file>
+    <file>exit_fullscreen.png</file>
+    <file>fullscreen.png</file>
+    <file>forward-arrow.png</file>
     <file>ICON.png</file>
-    <file>add.svg</file>
     <file>Loader.gif</file>
     <file>logo.svg</file>
-    <file>trash.svg</file>
+    <file>add.png</file>
+    <file>back-arrow.png</file>
+    <file>trash.png</file>
   </qresource>
 </RCC>
